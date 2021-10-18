@@ -1,0 +1,60 @@
+body {
+    background-image: url("sunset.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+#title {
+    font-size: 36px;
+}
+
+.container {
+    background-color:#F2EFF2;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    margin:0px 273px 18px 273px;
+    justify-content: center;
+}
+    
+.form-element-label {
+    display: block;
+    margin-bottom: 4px;
+
+}
+
+.form-element {
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.input-radio,
+.input-checkbox {
+    display: inline-block;
+}
+
+.form-controls {
+    padding: 10px;
+    border-radius: 4px;
+    width: 80%;
+}
+
+#comments {
+    border-radius: 4px;
+}
+
+#submit {
+    padding:10px;
+    border-radius: 4px;
+    background-color: lightblue;
+
+}
