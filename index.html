@@ -20,16 +20,16 @@
         <div class="container">
             <form id="survey-form">
                 <div class="form-element">
-                    <label class="form-element-label">Name</label>
-                    <input type="text" id="name-label" placeholder="Enter Your Name" class="form-controls">
+                    <label id="name-label" class="form-element-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter Your Name" class="form-controls" required>
                 </div>
                 <div class="form-element">
-                    <label class="form-element-label">Email</label>
-                    <input type="email" id="email-label" placeholder="Enter Your Email" class="form-controls">
+                    <label id="email-label" class="form-element-label">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your Email" class="form-controls" required>
                 </div>
                 <div class="form-element">
-                    <label class="from form-element-label ">Age(optional)</label>
-                    <input type="number" id="number-label" placeholder="Age" class="form-controls">
+                    <label id="number-label" class="form-element-label">Age(optional)</label>
+                    <input type="number" min="10" max="90" id="number" placeholder="Age" class="form-controls">
                 </div>
                 <div class="form-element">
                     <label class="form-element-label">Which option best describes your current role?</label>
@@ -111,7 +111,7 @@
                 <div class="form-element">
                     <p>Any comments or suggestions?</p>
                     <label class="form-element-label">
-                        <textarea name="comments or suggestions" id="comments" cols="50" rows="10"
+                        <textarea name="comments or suggestions" id="comments" rows="10"
                             placeholder="Enter your comment here"></textarea>
                     </label>
                 </div>
@@ -121,7 +121,7 @@
         </div>
 
     </main>
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

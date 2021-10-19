@@ -2,7 +2,7 @@ body {
     background-image: url("sunset.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .header {
@@ -16,15 +16,16 @@ body {
 }
 
 .container {
-    background-color:#F2EFF2;
+    background-color: #F2EFF2;
     padding: 20px;
     color: black;
-    border-radius: 10px;
+    border-radius: 4px;
     display: flex;
-    margin:0px 273px 18px 273px;
     justify-content: center;
+    width: 600px;
+    margin:15px auto;
 }
-    
+
 .form-element-label {
     display: block;
     margin-bottom: 4px;
@@ -34,7 +35,6 @@ body {
 .form-element {
     margin-bottom: 20px;
     display: block;
-    
 }
 
 .input-radio,
@@ -45,16 +45,24 @@ body {
 .form-controls {
     padding: 10px;
     border-radius: 4px;
-    width: 80%;
+    width: 300px;
 }
 
 #comments {
     border-radius: 4px;
+    width:300px;
 }
 
 #submit {
-    padding:10px;
+    padding: 10px;
     border-radius: 4px;
     background-color: lightblue;
 
+}
+
+@media screen and (max-width: 480px) {
+    .container { 
+        width:350px;
+        justify-content: unset;
+    }
 }
